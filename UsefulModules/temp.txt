@@ -1,0 +1,3 @@
+Hello...
+ I am from temp.txt 
+ I am write synchronous operation

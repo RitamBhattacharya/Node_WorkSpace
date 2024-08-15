@@ -1,0 +1,9 @@
+mysql-database:
+  port: 3306
+  username: root
+  password: root
+  dbName: nodepractise
+oracle-database:
+  port: 1521
+  username: system
+  password: Ritam123

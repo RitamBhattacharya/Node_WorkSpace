@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script lang="javascript">
+        function bodyLoad(){
+            fetch("http://localhost:8888/images")
+            .then(resp => resp.json())
+            .then(data => {
+                for (image of data) {
+                    const div = document.createElement("div");
+                    const base64Image = image.image;
+                    const dataUrl = `data:${image.contentType};base64,${base64Image}`;
+                    div.innerHTML = `<img src=${dataUrl} alt="From NodeJS" />`;
+                    document.querySelector('main').appendChild(div);
+                }
+            })
+        }
+    </script>
+</head>
+
+<body onload="bodyLoad()">
+    <main></main>
+</body>
+
+</html>

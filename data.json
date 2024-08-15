@@ -1,0 +1,62 @@
+[
+    {
+        "_id": 1,
+        "username": "David",
+        "userage": 45,
+        "userjob": "Guard"
+    },
+    {
+        "_id": 2,
+        "username": "Alice",
+        "userage": 32,
+        "userjob": "Engineer"
+    },
+    {
+        "_id": 3,
+        "username": "Michael",
+        "userage": 28,
+        "userjob": "Teacher"
+    },
+    {
+        "_id": 4,
+        "username": "Sophia",
+        "userage": 30,
+        "userjob": "Doctor"
+    },
+    {
+        "_id": 5,
+        "username": "John",
+        "userage": 40,
+        "userjob": "Manager"
+    },
+    {
+        "_id": 6,
+        "username": "Emma",
+        "userage": 25,
+        "userjob": "Designer"
+    },
+    {
+        "_id": 7,
+        "username": "Robert",
+        "userage": 38,
+        "userjob": "Developer"
+    },
+    {
+        "_id": 8,
+        "username": "Olivia",
+        "userage": 29,
+        "userjob": "Analyst"
+    },
+    {
+        "_id": 9,
+        "username": "James",
+        "userage": 33,
+        "userjob": "Consultant"
+    },
+    {
+        "_id": 10,
+        "username": "Lily",
+        "userage": 27,
+        "userjob": "Architect"
+    }
+]

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multer Demo</title>
+</head>
+<body>
+    <form action="/form" method="post" enctype="multipart/form-data">
+        <dl>
+            <dt>Name:</dt>
+            <dd><input type="text" placeholder="Enter Username" name="name"></dd>
+            <dt>Password:</dt>
+            <dd><input type="password" placeholder="Enter password" name="pwd"></dd> <br>
+            <dt>Passport Photo:</dt>
+            <dd><input type="file" name="photo"></dd> <br>
+            <button type="submit">Submit</button>
+        </dl>
+    </form>
+</body>
+</html>

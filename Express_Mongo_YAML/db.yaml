@@ -1,0 +1,4 @@
+MONGO_DATABASE: nodepractise
+MONGO_COLLECTION: 
+  EMPLOYEE: emps
+  USER: users
